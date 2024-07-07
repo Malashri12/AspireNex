@@ -1,0 +1,70 @@
+/* Reset default margins and padding */
+body, h1, h3, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body and overall layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.skills, .qualities {
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+}
+
+.skills h3, .qualities h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.skills ul, .qualities ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li, .qualities li {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+    .skills, .qualities {
+        padding: 15px;
+        font-size: 16px;
+    }
+    .skills h3, .qualities h3 {
+        font-size: 20px;
+    }
+    .skills li, .qualities li {
+        font-size: 16px;
+    }
+}
